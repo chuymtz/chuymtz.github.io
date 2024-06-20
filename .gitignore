@@ -1,6 +1,6 @@
 .env/
 temp.txt
-_extensions/
+# _extensions/
 _site/
 /.quarto/
 docs/
