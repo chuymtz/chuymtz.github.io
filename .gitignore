@@ -1,4 +1,6 @@
 .env/
 temp.txt
-
+_extensions/
+_site/
 /.quarto/
+docs/
