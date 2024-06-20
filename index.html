@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>chuymtz.github.io - Jesus Mtz</title>
+<title>Jesús Martínez</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,17 +30,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<link href="./images/icon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,78 +68,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Jesús Martínez">
+<meta property="og:description" content="Senior Analytics Engineer">
+<meta property="og:image" content="https://chuymtz.github.io/images/avatar.jpg">
+<meta property="og:site_name" content="Jesús Martínez">
+<meta property="og:locale" content="en_US">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">chuymtz.github.io</span>
+    <span class="navbar-title">Jesús Martínez</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -149,18 +96,12 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -170,118 +111,79 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Jesus Mtz</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<div class="quarto-about-trestles content page-columns page-full">
+  <div class="about-entity">
+    <img src="images/avatar.jpg" class="about-image
+  rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Jesús Martínez</h1>
+<p class="subtitle lead"><em>Senior Analytics Engineer</em></p>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header>
+    <div class="about-links">
+  <a href="https://www.linkedin.com/in/jes%C3%BAs-mart%C3%ADnez-0943a6a2/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/chuymtz" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
+  </a>
+  <a href="/mtzgtzjesus@gmail.com" class="about-link" rel="" target="">
+     <span class="about-link-text">Email</span>
+  </a>
+  <a href="/blog.html" class="about-link" rel="" target="">
+     <span class="about-link-text">Blog</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents page-columns page-full"><main class="content page-columns page-full" id="quarto-document-content">
+<div class="column-page">
+<section id="bio" class="level2">
+<h2 data-anchor-id="bio">Bio</h2>
+<p>Mathematical scientist with professional experience in the Oil &amp; Gas industry. My contributions range from numerical methods to a variety of statistical analysis.</p>
+<!-- ![A Lovely Image](images/avatar.jpg){.lightbox} -->
+<p>I’m an individual who enjoys making a difference at the technical level but also as a group member. I believe that developing valuable tools and insights is an iterative and collaborative process.</p>
+<p>I’m also interested in computational methods to analyze Multiplexed Immunofluorescence image data. Specifically, I’m interested in spatial methods to draw insights from point-process patterns.</p>
+<!-- fontawesome https://fontawesome.com/search?o=r&m=free -->
+<p><i class="fa-solid fa-download" aria-label="download"></i> Download my <a href="martinez-cv.pdf">cv</a>.</p>
+<p>
+</p>
+</section>
+<section id="professional-experience" class="level2">
+<h2 data-anchor-id="professional-experience">Professional Experience</h2>
+<p><i class="fa-solid fa-building" aria-label="building"></i> ML for Seismic Interpretation Manager | Mar 2024 - Present <img src="images/oxy.svg" class="img-fluid" style="width:3.0%"> Occidental Petroleum <i class="fa-solid fa-map-pin" aria-label="map-pin"></i> Houston, TX</p>
+<p><i class="fa-solid fa-building" aria-label="building"></i> Senior Analytics Engineer | Jan 2021 - Mar 2024 <img src="images/oxy.svg" class="img-fluid" style="width:3.0%"> Occidental Petroleum <i class="fa-solid fa-map-pin" aria-label="map-pin"></i> Houston, TX</p>
+<p><i class="fa-solid fa-building" aria-label="building"></i> Mathematical Scientist | Sep 2016 - Jan 2021 <img src="images/oxy.svg" class="img-fluid" style="width:3.0%"> Occidental Petroleum <i class="fa-solid fa-map-pin" aria-label="map-pin"></i> Houston, TX</p>
+<p><i class="fa-solid fa-building" aria-label="building"></i> Assistant Professor | Sep 2016 - Jan 2021 <img src="images/mercy.svg" class="img-fluid" style="width:3.0%"> Mercy College of Health Sciences <i class="fa-solid fa-map-pin" aria-label="map-pin"></i> Des Moines, IA</p>
+<p><i class="fa-solid fa-building" aria-label="building"></i> Graduate Teaching Assistant | Aug 2010 – May 2015 <img src="images/iastate.svg" class="img-fluid" style="width:3.0%"> Iowa State University <i class="fa-solid fa-map-pin" aria-label="map-pin"></i> Ames, IA</p>
+</section>
+<section id="education" class="level2">
+<h2 data-anchor-id="education">Education</h2>
+<p><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> PhD in Applied Mathematics | 2010 - 2015 <i class="fa-solid fa-map-pin" aria-label="map-pin"></i> Iowa State University</p>
+<p><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> BS in Mathematics | 2006 - 2009 <i class="fa-solid fa-map-pin" aria-label="map-pin"></i> University of Texas Pan-American</p>
+</section>
+<section id="interests" class="level2">
+<h2 data-anchor-id="interests">Interests</h2>
+<p><i class="fa-solid fa-book" aria-label="book"></i> Mathematics, Statistics, Programming</p>
+<p><i class="fa-solid fa-cloud-sun" aria-label="cloud-sun"></i> Tennis, Birds, Music, Fishing</p>
+<p>
+</p>
+</section>
+</div>
 
 
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1718582400000" data-listing-file-modified-sort="1718675449879" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html" class="no-external"></a></p><a href="./posts/post-with-code/index.html" class="no-external">
-<p><img src="./posts/post-with-code/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/post-with-code/index.html" class="no-external"></a></p>
+</main></div>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Post With Code</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/post-with-code/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/post-with-code/index.html" class="no-external">This is a post with executable code.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-Jun 17, 2024
-</div>
-<div class="listing-author">
-Harlow Malloc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1718323200000" data-listing-file-modified-sort="1718675449879" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external">This is the first post in a Quarto blog. Welcome!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Jun 14, 2024
-</div>
-<div class="listing-author">
-Tristan O’Malley
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -302,13 +204,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
