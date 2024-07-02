@@ -36,7 +36,7 @@ Mathematical scientist with professional experience in the Oil & Gas industry. M
 Starting in 2024, I joined Oxy's newly formed Subsurface Innovation Lab (SIL) where I focus on using state-of-the-art ML techniques to improve our seismic interpretation efforts.
 
 <!-- ![A Lovely Image](images/avatar.jpg){.lightbox} -->
-I'm an individual who enjoys making a difference at the technical level but also as a group member. I believe that developing valuable tools and insights is an iterative and collaborative process.
+I'm an individual who enjoys making a difference at the technical level but also as a group member. I believe that developing valuable tools and insights is an iterative and collaborative process. 
 
 I’m also interested in computational methods to analyze Multiplexed Immunofluorescence image data. Specifically, I’m interested in spatial methods to draw insights from point-process patterns.
 
@@ -65,7 +65,7 @@ I’m also interested in computational methods to analyze Multiplexed Immunofluo
 {{< fa map-pin >}} Houston, TX
 
 {{< fa building >}} Assistant Professor
-| Sep 2016 - Jan 2021 
+| Aug 2015 - Aug 2016
 ![](images/mercy.svg){width=3%} Mercy College of Health Sciences
 {{< fa map-pin >}} Des Moines, IA
 
