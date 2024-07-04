@@ -1,5 +1,5 @@
 ---
-title: "🏃‍♀️Running AI Running Coach"
+title: "🏃Running AI Running Coach"
 author: "Jesus Martinez"
 date: "2024-07-02"
 categories: [exercise, fitness]
