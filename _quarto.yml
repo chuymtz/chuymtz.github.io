@@ -22,9 +22,9 @@ website:
       #   href: https://twitter.com
 format:
   html:
-    # theme: [sandstone, _variables.scss]
+    theme: [sandstone, _variables.scss]
     # theme: [sandstone, themes/cyborg.scss]
-    theme: [sandstone, themes/spacelab.scss]
+    # theme: [sandstone, themes/spacelab.scss]
     # theme: [sandstone, themes/materia.scss]
     css: styles.css
 
